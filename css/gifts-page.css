@@ -1,0 +1,118 @@
+@import url(root.css);
+@import url(fonts.css);
+
+.gifts {
+  min-height: 1394px;
+  background-color: var(--primary-color);
+  background-image: url(../images/bg-images/bg-garland.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  border-top-right-radius: 22px;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+  padding: 60px 0px;
+}
+
+.gifts__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px 0;
+}
+
+.gifts__title {
+  text-align: center;
+  color: var(--static-white-color);
+}
+
+.gifts__category-wrapper {
+  display: inline-flex;
+  gap: 0 10px;
+}
+
+.gifts__category {
+  color: var(--static-white-color);
+  font-family: inherit;
+  padding: 12px 20px;
+}
+
+.gifts__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.active_category {
+  background-color: var(--link-background-color);
+  border-radius: 14px;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
+.to-top__btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 16px;
+  background: var(--static-white-color);
+  cursor: pointer;
+  z-index: 3;
+
+  img {
+    filter: brightness(0) saturate(100%) invert(32%) sepia(20%) saturate(6533%)
+      hue-rotate(338deg) brightness(104%) contrast(93%);
+  }
+}
+
+@media (hover: hover) {
+  .gifts__category:not([disabled]):hover {
+    cursor: pointer;
+    background-color: var(--link-background-color);
+    border-radius: 14px;
+    transition: all 0.5s;
+  }
+
+  .to-top__btn:hover {
+    background: #333;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .gifts__container {
+    padding: 0px 63px;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    justify-items: center;
+  }
+}
+
+@media (max-width: 510px) {
+  .gifts__title {
+    width: 364px;
+  }
+
+  .gifts__category-wrapper {
+    gap: 0 4px;
+  }
+  .gifts__category {
+    padding: 12px 8px;
+  }
+  .gifts__container {
+    padding: 0px 16px;
+  }
+}

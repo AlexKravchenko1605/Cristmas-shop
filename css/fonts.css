@@ -1,0 +1,82 @@
+.montserrat-action-small {
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.allura-regular {
+  font-family: "Allura";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.8px;
+}
+
+.montserrat-action-h1 {
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 5.3px;
+  text-transform: uppercase;
+}
+
+.montserrat-action-h2 {
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 152%;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.montserrat-action-h3 {
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 152%;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.montserrat-action-h4 {
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+.montserrat-action-paragraph {
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 148%;
+}
+
+.montserrat-action-large {
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 152%;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.montserrat-action-slider-text {
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-size: 80px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
