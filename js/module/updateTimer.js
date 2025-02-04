@@ -3,7 +3,7 @@ const hours = document.querySelector(".hours");
 const minutes = document.querySelector(".minutes");
 const seconds = document.querySelector(".seconds");
 
-const newYearDate = new Date("2024-12-31T00:00:00");
+const newYearDate = new Date("2025-12-31T00:00:00");
 
 export function updateTimer() {
   const now = new Date();
