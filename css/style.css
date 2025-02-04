@@ -724,6 +724,10 @@ ul {
 }
 
 @media (max-width: 430px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   .top {
     min-height: 572px;
   }
