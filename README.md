@@ -3,11 +3,11 @@ New Year's gift shop website.
 
 ### Technology stack
 
-- HTML
+:wrench: HTML
 
-- CSS
+:wrench: CSS
 
-- Javascript
+:wrench: Javascript
 
 The site is fully adaptive. The design of the site was given by the designer. 
 
